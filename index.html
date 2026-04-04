@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JuDigital Shop | Master Manifestation Coaching</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+<title>Master Manifestation Coaching | Digital Guides by Ju</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 :root{
@@ -18,94 +18,154 @@
   --radius:14px;--radius-sm:8px;
 }
 html{scroll-behavior:smooth;}
-body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background:
+body{font-family:"DM Sans",sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;overflow-x:hidden;}
+body::before{content:"";position:fixed;inset:0;background:
   radial-gradient(ellipse at 15% 25%,rgba(244,114,182,0.07) 0%,transparent 55%),
   radial-gradient(ellipse at 85% 75%,rgba(74,222,128,0.06) 0%,transparent 55%),
   radial-gradient(ellipse at 50% 50%,rgba(192,132,252,0.05) 0%,transparent 65%);
 pointer-events:none;z-index:0;}
 
-nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 24px;display:flex;justify-content:space-between;align-items:center;background:rgba(7,4,15,0.88);backdrop-filter:blur(14px);border-bottom:0.5px solid var(--pink-border);}
-.nav-brand{font-family:'Cinzel',serif;font-size:12px;letter-spacing:0.14em;background:linear-gradient(135deg,var(--pink),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;}
-.nav-tag{font-family:'DM Sans',sans-serif;font-size:11px;color:var(--muted);letter-spacing:0.04em;}
-.nav-quiz-btn{font-family:'Cinzel',serif;font-size:11px;letter-spacing:0.1em;background:var(--pink-bg);color:var(--pink);border:0.5px solid var(--pink-border);border-radius:999px;padding:8px 18px;cursor:pointer;text-decoration:none;transition:all 0.2s;}
-.nav-quiz-btn:hover{background:rgba(244,114,182,0.2);}
+/* NAV */
+
+
+
+
+
+
+
+
+
+
+
+
+/* SCRIPTURE FLOAT */
+.scripture-float{text-align:center;padding:0 24px 32px;animation:floatUpDown 4s ease-in-out infinite;}
+.scripture-float-text{font-family:"Cormorant Garamond",serif;font-size:clamp(14px,2vw,18px);font-style:italic;color:rgba(255,255,255,0.4);line-height:1.8;max-width:580px;margin:0 auto 6px;}
+.scripture-float-ref{font-family:"Cinzel",serif;font-size:11px;letter-spacing:0.18em;color:var(--pink);}
+@keyframes floatUpDown{0%,100%{transform:translateY(0);}50%{transform:translateY(-8px);}}
 
 /* HERO */
 .hero{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 24px 80px;}
 .hero-eyebrow{font-size:10px;letter-spacing:0.28em;color:var(--green);text-transform:uppercase;margin-bottom:18px;opacity:0;animation:fadeUp 0.7s 0.2s forwards;}
-.hero-title{font-family:'Cinzel',serif;font-size:clamp(32px,7vw,68px);font-weight:600;line-height:1.08;letter-spacing:0.03em;margin-bottom:14px;opacity:0;animation:fadeUp 0.7s 0.38s forwards;}
+.hero-title{font-family:"Cinzel",serif;font-size:clamp(32px,7vw,68px);font-weight:600;line-height:1.08;letter-spacing:0.03em;margin-bottom:14px;opacity:0;animation:fadeUp 0.7s 0.38s forwards;}
 .hero-title .t-pink{color:var(--pink);}
 .hero-title .t-green{color:var(--green);}
 .hero-title .t-purple{color:var(--purple);}
-.hero-sub{font-family:'Cormorant Garamond',serif;font-size:clamp(17px,2.8vw,24px);font-style:italic;font-weight:300;color:var(--purple);margin-bottom:10px;opacity:0;animation:fadeUp 0.7s 0.52s forwards;}
-.hero-desc{font-size:14px;color:var(--muted);max-width:520px;line-height:1.75;margin-bottom:40px;opacity:0;animation:fadeUp 0.7s 0.64s forwards;}
+.hero-sub{font-family:"Cormorant Garamond",serif;font-size:clamp(17px,2.8vw,24px);font-style:italic;font-weight:300;color:var(--purple);margin-bottom:10px;opacity:0;animation:fadeUp 0.7s 0.52s forwards;}
+.hero-desc{font-family:"Cinzel",serif;color:#ffffff;font-size:12px;letter-spacing:0.07em;line-height:2.1;max-width:520px;margin-bottom:40px;opacity:0;animation:fadeUp 0.7s 0.64s forwards;}
 .hero-btns{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;opacity:0;animation:fadeUp 0.7s 0.78s forwards;}
-.btn-primary{font-family:'Cinzel',serif;font-size:12px;letter-spacing:0.12em;background:linear-gradient(135deg,var(--pink2),var(--purple2));color:#fff;border:none;border-radius:999px;padding:15px 34px;cursor:pointer;text-decoration:none;transition:opacity 0.2s;}
+.btn-primary{font-family:"Cinzel",serif;font-size:12px;letter-spacing:0.12em;background:linear-gradient(135deg,var(--pink2),var(--purple2));color:#fff;border:none;border-radius:999px;padding:15px 34px;cursor:pointer;text-decoration:none;transition:opacity 0.2s;}
 .btn-primary:hover{opacity:0.88;}
-.btn-secondary{font-family:'Cinzel',serif;font-size:12px;letter-spacing:0.12em;background:transparent;color:var(--green);border:0.5px solid var(--green-border);border-radius:999px;padding:15px 34px;cursor:pointer;text-decoration:none;transition:all 0.2s;}
+.btn-secondary{font-family:"Cinzel",serif;font-size:12px;letter-spacing:0.12em;background:transparent;color:var(--green);border:0.5px solid var(--green-border);border-radius:999px;padding:15px 34px;cursor:pointer;text-decoration:none;transition:all 0.2s;}
 .btn-secondary:hover{background:var(--green-bg);}
-.hero-orb{position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(192,132,252,0.05) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;animation:orb 7s ease-in-out infinite;}
-@keyframes orb{0%,100%{transform:translate(-50%,-50%) scale(1);}50%{transform:translate(-50%,-50%) scale(1.1);}}
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
 
 /* DIVIDER */
 .divider{display:flex;align-items:center;gap:14px;padding:0 24px;max-width:560px;margin:0 auto;}
 .divider-line{flex:1;height:0.5px;}
-.divider-line.pink{background:var(--pink-border);}
-.divider-line.green{background:var(--green-border);}
-.divider-sym{font-family:'Cinzel',serif;font-size:14px;letter-spacing:0.2em;}
+.dl-pink{background:linear-gradient(90deg,transparent,var(--pink-border),transparent);}
+.dl-green{background:linear-gradient(90deg,transparent,var(--green-border),transparent);}
+.dl-purple{background:linear-gradient(90deg,transparent,var(--purple-border),transparent);}
+.divider-sym{font-size:18px;flex-shrink:0;}
 
 /* SECTION */
 section{position:relative;z-index:1;padding:80px 24px;}
 .section-inner{max-width:920px;margin:0 auto;}
 .section-eyebrow{font-size:10px;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:10px;}
-.section-title{font-family:'Cinzel',serif;font-size:clamp(20px,3.5vw,32px);font-weight:600;margin-bottom:8px;line-height:1.2;}
-.section-sub{font-family:'Cormorant Garamond',serif;font-size:17px;font-style:italic;margin-bottom:36px;}
+.section-title{font-family:"Cinzel",serif;font-size:clamp(20px,3.5vw,32px);font-weight:600;margin-bottom:8px;line-height:1.2;}
+.section-sub{font-family:"Cormorant Garamond",serif;font-size:17px;font-style:italic;margin-bottom:36px;}
 
 /* HOW IT WORKS */
 .steps-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;}
 .step-card{background:var(--bg2);border:0.5px solid var(--bord);border-radius:var(--radius);padding:24px 20px;text-align:center;}
-.step-num{font-family:'Cinzel',serif;font-size:28px;font-weight:600;margin-bottom:10px;}
+.step-num{font-family:"Cinzel",serif;font-size:28px;font-weight:600;margin-bottom:10px;}
 .step-label{font-size:13px;font-weight:500;margin-bottom:6px;color:var(--txt);}
 .step-desc{font-size:12px;color:var(--muted);line-height:1.65;}
+
+/* MINI GUIDES */
+.mini-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;}
+.mini-card{background:var(--bg2);border:0.5px solid var(--purple-border);border-radius:var(--radius);overflow:hidden;}
+.mini-card-header{padding:28px 24px;text-align:center;border-bottom:0.5px solid var(--purple-border);}
+.mini-card-emoji{font-size:36px;margin-bottom:10px;}
+.mini-card-name{font-family:"Cinzel",serif;font-size:18px;color:var(--txt);font-weight:600;margin-bottom:6px;}
+.mini-card-tag{font-family:"DM Sans",sans-serif;font-size:11px;color:var(--muted);letter-spacing:0.08em;margin-bottom:12px;}
+.mini-price-row{display:flex;align-items:center;justify-content:center;gap:10px;}
+.mini-price{font-family:"Cormorant Garamond",serif;font-size:32px;color:var(--pink);font-weight:300;}
+.mini-price-orig{font-family:"DM Sans",sans-serif;font-size:14px;color:var(--muted);text-decoration:line-through;}
+.mini-card-body{padding:20px 24px;}
+.mini-card-desc{font-size:13px;color:var(--muted);line-height:1.75;margin-bottom:18px;}
+.mini-feature{display:flex;gap:8px;align-items:flex-start;margin-bottom:8px;}
+.mini-feature-icon{color:var(--pink);font-size:14px;flex-shrink:0;}
+.mini-feature-text{font-size:13px;color:var(--txt);}
+.mini-btn{display:block;text-align:center;font-family:"Cinzel",serif;font-size:12px;letter-spacing:0.1em;background:linear-gradient(135deg,var(--pink2),var(--purple2));color:#fff;border-radius:999px;padding:14px;text-decoration:none;transition:opacity 0.2s;margin-top:18px;}
+.mini-btn:hover{opacity:0.85;}
+.mini-btn.green-btn{background:linear-gradient(135deg,var(--purple2),var(--pink2));}
 
 /* QUIZ */
 .quiz-wrap{background:var(--bg2);border:0.5px solid var(--pink-border);border-radius:var(--radius);overflow:hidden;}
 .quiz-prog{height:3px;background:var(--bg3);}
 .quiz-bar{height:3px;background:linear-gradient(90deg,var(--pink),var(--green));transition:width 0.4s ease;width:0%;}
 .quiz-body{padding:36px 30px;}
-.quiz-q{font-family:'Cormorant Garamond',serif;font-size:22px;font-style:italic;color:var(--txt);margin-bottom:8px;line-height:1.5;}
-.quiz-hint{font-size:12px;color:var(--muted);margin-bottom:22px;letter-spacing:0.03em;}
+.quiz-q{font-family:"Cormorant Garamond",serif;font-size:22px;font-style:italic;color:var(--txt);margin-bottom:8px;line-height:1.5;}
+.quiz-hint{font-size:12px;color:var(--muted);margin-bottom:22px;}
 .quiz-opts{display:flex;flex-direction:column;gap:10px;}
 .quiz-opt{background:var(--surf);border:0.5px solid var(--bord2);border-radius:10px;padding:14px 18px;cursor:pointer;font-size:14px;color:var(--txt);text-align:left;transition:all 0.2s;line-height:1.5;display:flex;align-items:flex-start;gap:10px;}
 .quiz-opt:hover{background:var(--pink-bg);border-color:var(--pink-border);color:var(--pink);}
 .quiz-opt.selected{background:var(--pink-bg);border-color:var(--pink);color:var(--pink);}
 .quiz-opt-icon{font-size:16px;flex-shrink:0;margin-top:1px;}
 .quiz-foot{display:flex;justify-content:space-between;align-items:center;padding:18px 30px;border-top:0.5px solid var(--bord);}
-.quiz-step-label{font-family:'DM Sans',sans-serif;font-size:11px;color:var(--muted);letter-spacing:0.06em;}
-.quiz-next-btn{font-family:'Cinzel',serif;font-size:11px;letter-spacing:0.1em;background:linear-gradient(135deg,var(--pink2),var(--purple2));color:#fff;border:none;border-radius:999px;padding:10px 24px;cursor:pointer;opacity:0.35;pointer-events:none;transition:opacity 0.2s;}
+.quiz-step-lbl{font-family:"DM Sans",sans-serif;font-size:11px;color:var(--muted);letter-spacing:0.06em;}
+.quiz-next-btn{font-family:"Cinzel",serif;font-size:11px;letter-spacing:0.1em;background:linear-gradient(135deg,var(--pink2),var(--purple2));color:#fff;border:none;border-radius:999px;padding:10px 24px;cursor:pointer;opacity:0.35;pointer-events:none;transition:opacity 0.2s;}
 .quiz-next-btn.active{opacity:1;pointer-events:all;}
-
-/* RESULT */
 .quiz-result{padding:40px 30px;text-align:center;display:none;}
 .result-tag{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:16px;}
-.result-title{font-family:'Cinzel',serif;font-size:22px;margin-bottom:14px;}
-.result-msg{font-family:'Cormorant Garamond',serif;font-size:18px;font-style:italic;color:var(--purple);margin-bottom:24px;line-height:1.65;}
+.result-title{font-family:"Cinzel",serif;font-size:22px;margin-bottom:14px;}
+.result-msg{font-family:"Cormorant Garamond",serif;font-size:18px;font-style:italic;color:var(--purple);margin-bottom:24px;line-height:1.65;}
 .result-products{display:flex;flex-direction:column;gap:12px;margin-bottom:28px;text-align:left;}
 .result-product{background:var(--bg3);border:0.5px solid var(--bord2);border-radius:var(--radius-sm);padding:16px 18px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;}
-.result-product-info{flex:1;}
-.result-product-cat{font-size:10px;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:4px;}
 .result-product-name{font-size:14px;font-weight:500;color:var(--txt);margin-bottom:3px;line-height:1.4;}
 .result-product-desc{font-size:12px;color:var(--muted);line-height:1.55;}
-.result-product-price{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:300;white-space:nowrap;}
-.result-buy-btn{font-family:'Cinzel',serif;font-size:11px;letter-spacing:0.09em;background:linear-gradient(135deg,var(--pink2),var(--purple2));color:#fff;border:none;border-radius:999px;padding:10px 20px;cursor:pointer;white-space:nowrap;transition:opacity 0.2s;}
+.result-product-price{font-family:"Cormorant Garamond",serif;font-size:22px;font-weight:300;white-space:nowrap;}
+.result-buy-btn{font-family:"Cinzel",serif;font-size:11px;letter-spacing:0.09em;background:linear-gradient(135deg,var(--pink2),var(--purple2));color:#fff;border:none;border-radius:999px;padding:10px 20px;cursor:pointer;white-space:nowrap;transition:opacity 0.2s;}
 .result-buy-btn:hover{opacity:0.85;}
 .result-deeper{background:var(--green-bg);border:0.5px solid var(--green-border);border-radius:var(--radius-sm);padding:16px 20px;margin-bottom:20px;font-size:13px;color:var(--green);line-height:1.65;text-align:left;}
-.result-deeper strong{font-weight:500;}
-.result-retake{font-size:12px;color:var(--muted);cursor:pointer;text-decoration:underline;letter-spacing:0.04em;display:block;margin-top:4px;}
+.result-cta{display:inline-block;font-family:"Cinzel",serif;font-size:13px;letter-spacing:0.1em;background:linear-gradient(135deg,var(--pink2),var(--purple2));color:#fff;border-radius:999px;padding:14px 36px;text-decoration:none;margin-bottom:14px;}
+.result-retake{display:block;margin-top:14px;font-size:12px;color:var(--muted);cursor:pointer;text-decoration:underline;}
 
-/* CATEGORIES PREVIEW */
+/* REVIEW SLIDER */
+
+
+
+
+
+
+
+
+
+.shop-review-card{background:var(--bg2);border:0.5px solid var(--bord);border-radius:var(--radius);padding:28px;display:flex;flex-direction:column;gap:10px;}
+.shop-review-stars{font-size:14px;}
+.shop-review-text{font-family:"Cormorant Garamond",serif;font-size:17px;line-height:1.75;color:var(--txt);font-style:italic;flex:1;}
+.shop-review-highlight{color:var(--pink);font-style:normal;font-weight:600;}
+.shop-review-highlight-green{color:var(--green);font-style:normal;font-weight:600;}
+.shop-review-author{font-size:14px;color:var(--txt);letter-spacing:0.05em;font-weight:500;}
+.shop-review-badge{font-size:12px;color:var(--green);letter-spacing:0.07em;}
+.shop-reviews-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:28px;}
+.shop-rating-num{font-family:"Cinzel",serif;font-size:48px;color:var(--pink);line-height:1;}
+.shop-rating-meta{font-size:12px;color:var(--muted);margin-top:4px;}
+
+/* JOURNEY FUNNEL */
+.funnel-wrap{display:flex;flex-direction:column;gap:0;max-width:560px;margin:0 auto;}
+.funnel-step{display:flex;gap:18px;align-items:flex-start;padding-bottom:28px;position:relative;}
+.funnel-step:not(:last-child)::after{content:"";position:absolute;left:19px;top:40px;bottom:0;width:1px;background:linear-gradient(180deg,var(--pink-border),var(--purple-border));}
+.funnel-dot{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:"Cinzel",serif;font-size:14px;font-weight:600;flex-shrink:0;}
+.fd-pink{background:var(--pink-bg);color:var(--pink);border:0.5px solid var(--pink-border);}
+.fd-green{background:var(--green-bg);color:var(--green);border:0.5px solid var(--green-border);}
+.fd-purple{background:var(--purple-bg);color:var(--purple);border:0.5px solid var(--purple-border);}
+.funnel-content{padding-top:8px;flex:1;}
+.funnel-label{font-family:"Cinzel",serif;font-size:14px;margin-bottom:5px;}
+.funnel-desc{font-size:13px;color:var(--muted);line-height:1.65;}
+
+/* CATS GRID */
 .cats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
 .cat-card{background:var(--bg2);border:0.5px solid var(--bord);border-radius:var(--radius);padding:22px 20px;transition:border-color 0.25s,transform 0.25s;}
 .cat-card:hover{transform:translateY(-2px);}
@@ -113,81 +173,125 @@ section{position:relative;z-index:1;padding:80px 24px;}
 .cat-card.c-green{border-color:var(--green-border);}
 .cat-card.c-purple{border-color:var(--purple-border);}
 .cat-icon{font-size:24px;margin-bottom:10px;}
-.cat-name{font-family:'Cinzel',serif;font-size:14px;margin-bottom:6px;}
+.cat-name{font-family:"Cinzel",serif;font-size:14px;margin-bottom:6px;}
 .cat-name.pink{color:var(--pink);}
 .cat-name.green{color:var(--green);}
 .cat-name.purple{color:var(--purple);}
 .cat-count{font-size:11px;color:var(--muted);margin-bottom:8px;}
-.cat-items{display:flex;flex-direction:column;gap:3px;}
-.cat-item{font-size:12px;color:var(--muted);line-height:1.5;padding-left:10px;position:relative;}
-.cat-item::before{content:'';position:absolute;left:0;top:8px;width:4px;height:4px;border-radius:50%;}
+.cat-items{display:flex;flex-direction:column;gap:4px;}
+.cat-item{font-size:12px;color:var(--muted);line-height:1.5;padding-left:10px;position:relative;padding:4px 4px 4px 10px;border-radius:4px;transition:background 0.15s;}
+.cat-item:hover{background:var(--surf);}
+.cat-item::before{content:"";position:absolute;left:0;top:10px;width:4px;height:4px;border-radius:50%;}
 .cat-item.pink::before{background:var(--pink);}
 .cat-item.green::before{background:var(--green);}
 .cat-item.purple::before{background:var(--purple);}
-
-/* FUNNEL SECTION */
-.funnel-wrap{display:flex;flex-direction:column;gap:0;max-width:560px;margin:0 auto;}
-.funnel-step{display:flex;gap:18px;align-items:flex-start;padding-bottom:28px;position:relative;}
-.funnel-step:not(:last-child)::after{content:'';position:absolute;left:19px;top:40px;bottom:0;width:1px;background:linear-gradient(180deg,var(--pink-border),var(--purple-border));}
-.funnel-dot{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Cinzel',serif;font-size:14px;font-weight:600;flex-shrink:0;}
-.funnel-dot.pink{background:var(--pink-bg);color:var(--pink);border:0.5px solid var(--pink-border);}
-.funnel-dot.green{background:var(--green-bg);color:var(--green);border:0.5px solid var(--green-border);}
-.funnel-dot.purple{background:var(--purple-bg);color:var(--purple);border:0.5px solid var(--purple-border);}
-.funnel-content{padding-top:8px;flex:1;}
-.funnel-label{font-family:'Cinzel',serif;font-size:14px;margin-bottom:5px;}
-.funnel-desc{font-size:13px;color:var(--muted);line-height:1.65;}
+.cat-price{font-family:"DM Sans",sans-serif;font-size:10px;margin-left:4px;}
 
 /* FOOTER */
 footer{position:relative;z-index:1;border-top:0.5px solid var(--pink-border);padding:40px 24px;text-align:center;}
-.footer-brand{font-family:'Cinzel',serif;font-size:16px;background:linear-gradient(135deg,var(--pink),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px;}
-.footer-sub{font-family:'Cormorant Garamond',serif;font-size:15px;font-style:italic;color:var(--muted);margin-bottom:18px;}
-.footer-link{font-size:12px;color:var(--purple);text-decoration:none;letter-spacing:0.06em;transition:color 0.2s;}
-.footer-link:hover{color:var(--pink);}
+.footer-brand{font-family:"Cinzel",serif;font-size:16px;background:linear-gradient(120deg,var(--pink),var(--purple),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px;}
+.footer-sub{font-family:"Cormorant Garamond",serif;font-size:15px;font-style:italic;color:var(--muted);margin-bottom:18px;}
+.footer-links{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:16px;}
+.footer-links a{font-size:11px;color:var(--muted);text-decoration:none;letter-spacing:0.06em;transition:color 0.2s;}
+.footer-links a:hover{color:var(--pink);}
+
+/* NOTES */
+.note-card{background:var(--bg2);border:0.5px solid var(--bord);border-radius:var(--radius);overflow:hidden;margin-bottom:10px;}
+.note-hdr{display:flex;justify-content:space-between;align-items:center;padding:10px 15px;border-bottom:0.5px solid var(--bord);}
+.note-label{font-family:"DM Sans",sans-serif;font-size:13px;font-weight:500;background:transparent;color:#f5eeff;border:none;outline:none;flex:1;}
+.note-label::placeholder{color:var(--muted);}
+.note-body{padding:12px 15px;}
+.note-ta{width:100%;min-height:100px;background:transparent;color:#f5eeff;border:none;font-family:"DM Sans",sans-serif;font-size:13px;line-height:1.65;resize:vertical;outline:none;}
+.note-ta::placeholder{color:var(--muted);}
+.del-btn{background:none;color:var(--muted);border:none;cursor:pointer;padding:2px 5px;}
+.del-btn:hover{color:var(--pink);}
+
+/* TABS */
+.tabs{display:flex;gap:5px;margin-bottom:1.25rem;flex-wrap:wrap;}
+.tab-btn{font-family:"DM Mono",monospace;font-size:11px;padding:7px 13px;border-radius:999px;border:0.5px solid var(--bord2);background:transparent;color:var(--muted);cursor:pointer;transition:all 0.15s;}
+.tab-btn.active{background:var(--pink-bg);color:var(--pink);border-color:var(--pink-border);}
+.tab-panel{display:none;}
+.tab-panel.active{display:block;}
+.add-input{font-family:"DM Sans",sans-serif;font-size:13px;flex:1;background:var(--bg2);color:#f5eeff;border:0.5px solid var(--bord2);border-radius:6px;padding:6px 10px;outline:none;min-width:0;}
+.add-input::placeholder{color:var(--muted);}
+.add-btn-sm{font-family:"DM Sans",sans-serif;font-size:11px;background:var(--pink-bg);color:var(--pink);border:0.5px solid var(--pink-border);border-radius:6px;padding:6px 13px;cursor:pointer;white-space:nowrap;}
 
 @media(max-width:480px){
-  nav{padding:12px 16px;}
-  .nav-tag{display:none;}
-  .hero{padding:100px 18px 60px;}
+  
+  
+  
+  .hero{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 24px 80px;}
   .hero-btns{flex-direction:column;align-items:center;width:100%;}
   .btn-primary,.btn-secondary{width:100%;text-align:center;}
   section{padding:56px 16px;}
-  .quiz-body{padding:22px 16px;}
-  .quiz-foot{padding:14px 16px;}
+  .quiz-body,.quiz-foot{padding:22px 16px;}
   .quiz-result{padding:28px 16px;}
   .quiz-opt{font-size:13px;padding:12px 14px;}
   .result-product{flex-direction:column;gap:10px;}
   .result-buy-btn{width:100%;text-align:center;padding:12px;}
   .steps-grid{grid-template-columns:1fr 1fr;}
   .cats-grid{grid-template-columns:1fr;}
+  
 }
+
+@keyframes ticker{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.shop-review-card{cursor:default;}
+/* SLIDER */
+
+
+
+
+
+
+@media(max-width:600px){}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:16px 28px;display:flex;align-items:center;justify-content:space-between;background:rgba(7,4,15,0.9);backdrop-filter:blur(14px);border-bottom:0.5px solid var(--pink-border);}
+.nav-brand{text-decoration:none;display:flex;flex-direction:column;line-height:1.3;}
+.nb-1{font-family:'Cinzel',serif;font-size:11px;letter-spacing:0.12em;font-weight:600;color:var(--pink);}
+.nb-2{font-family:'Cinzel',serif;font-size:11px;letter-spacing:0.12em;font-weight:600;color:var(--green);}
+.nb-3{font-family:'Cinzel',serif;font-size:11px;letter-spacing:0.12em;font-weight:600;color:var(--purple);}
+.nav-links{display:flex;gap:24px;}
+.nav-links a{font-family:'Cinzel',serif;font-size:10px;color:var(--muted);text-decoration:none;letter-spacing:0.1em;transition:color 0.2s;}
+.nav-links a:hover{color:var(--pink);}
 </style>
 </head>
 <body>
 
 <nav>
-  <a class="nav-brand" href="#">JuDigital</a>
-  <span class="nav-tag">Master Manifestation Coaching</span>
-  <a class="nav-quiz-btn" href="#quiz">Take the Quiz</a>
+  <a class="nav-brand" href="#">
+    <span class="nb-1">Master</span>
+    <span class="nb-2">Manifestation</span>
+    <span class="nb-3">Coaching</span>
+  </a>
+  <div class="nav-links">
+    <a href="#mini-guides">Mini Guides</a>
+    <a href="#quiz">Free Quiz</a>
+    <a href="#products">Browse Guides</a>
+    <a href="#shop-reviews">Reviews</a>
+  </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-orb"></div>
-  <div class="hero-eyebrow">Digital Guides + Scripture Lists + Petitions</div>
+  <div style="font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:#ffffff;text-align:center;letter-spacing:0.05em;padding:0 0 18px;opacity:0;animation:fadeUp 0.7s 0.1s forwards;">
+  "For I know the plans I have for you, declares the Lord." &nbsp; Jeremiah 29:11
+</div>
+<div class="hero-eyebrow">Digital Guides + Scripture Lists + Petitions</div>
   <h1 class="hero-title">
     <span class="t-pink">Find</span> What<br>
     <span class="t-green">Your Spirit</span><br>
     <span class="t-purple">Needs</span>
   </h1>
   <div class="hero-sub">Take the free quiz. Get your guide. Start the shift.</div>
-  <div class="hero-desc">Justice. Love. Money. Protection. Healing. Ju has written it all down so you can do the work yourself, on your own time, with real spiritual power behind it.</div>
+  <div class="hero-desc">Justice. Love. Money. Protection. Healing.<br>Ju has written it all down so you can do the work on your own time with real spiritual power behind it.</div>
+  
   <div class="hero-btns">
-    <a class="btn-primary" href="#quiz">Take the Free Quiz</a>
-    <a class="btn-secondary" href="#products">Browse All Guides</a>
+    <a class="btn-primary" href="#quiz">Take the Free Quiz ✨</a>
+    <a class="btn-secondary" href="#mini-guides">Shop Mini Guides</a>
   </div>
 </section>
-
-<div class="divider"><div class="divider-line pink"></div><div class="divider-sym" style="color:var(--pink);">888</div><div class="divider-line green"></div></div>
+<div class="divider"><div class="divider-line dl-pink"></div><div class="divider-sym" style="color:var(--pink);">888</div><div class="divider-line dl-green"></div></div>
+<div style="display:flex;justify-content:center;gap:16px;padding:8px 0;font-size:22px;">🧿 🧿 🧿</div>
 
 <!-- HOW IT WORKS -->
 <section>
@@ -196,38 +300,72 @@ footer{position:relative;z-index:1;border-top:0.5px solid var(--pink-border);pad
     <h2 class="section-title">Simple. Spiritual. Effective.</h2>
     <div class="section-sub" style="color:var(--purple);">No experience needed. The guide does the heavy lifting.</div>
     <div class="steps-grid">
-      <div class="step-card">
-        <div class="step-num" style="color:var(--pink);">01</div>
-        <div class="step-label">Take the Quiz</div>
-        <div class="step-desc">Answer a few questions about what you are going through right now. Be honest with yourself. That is where the shift starts.</div>
-      </div>
-      <div class="step-card">
-        <div class="step-num" style="color:var(--green);">02</div>
-        <div class="step-label">Get Your Match</div>
-        <div class="step-desc">You will receive your personalized guide recommendation with everything you need to start your spiritual work immediately.</div>
-      </div>
-      <div class="step-card">
-        <div class="step-num" style="color:var(--purple);">03</div>
-        <div class="step-label">Download and Begin</div>
-        <div class="step-desc">Instant access after purchase. No waiting. No confusion. Ju wrote these so that beginners and experienced practitioners both get results.</div>
-      </div>
-      <div class="step-card">
-        <div class="step-num" style="color:var(--pink);">04</div>
-        <div class="step-label">Go Deeper with Ju</div>
-        <div class="step-desc">When you are ready for a private reading, mentorship, or 1 on 1 guidance, Ju is there. The guide is just the beginning.</div>
-      </div>
+      <div class="step-card"><div class="step-num" style="color:var(--pink);">01</div><div class="step-label">Take the Quiz</div><div class="step-desc">Answer a few honest questions about what you are going through. Get your personalized guide recommendation.</div></div>
+      <div class="step-card"><div class="step-num" style="color:var(--green);">02</div><div class="step-label">Get Your Match</div><div class="step-desc">You will receive your personalized guide recommendation with everything you need to start your spiritual work immediately.</div></div>
+      <div class="step-card"><div class="step-num" style="color:var(--purple);">03</div><div class="step-label">Download and Begin</div><div class="step-desc">Instant access after purchase. Ju wrote these so that beginners and experienced practitioners both get results.</div></div>
+      <div class="step-card"><div class="step-num" style="color:var(--pink);">04</div><div class="step-label">Go Deeper with Ju</div><div class="step-desc">When you are ready for a private reading, mentorship, or 1 on 1 guidance, Ju is there. The guide is just the beginning.</div></div>
     </div>
   </div>
 </section>
 
-<div class="divider"><div class="divider-line green"></div><div class="divider-sym" style="color:var(--purple);">*</div><div class="divider-line pink"></div></div>
+<div class="divider"><div class="divider-line dl-green"></div><div class="divider-sym" style="color:var(--purple);">*</div><div class="divider-line dl-pink"></div></div>
+
+<!-- MINI GUIDES -->
+<section id="mini-guides">
+  <div class="section-inner">
+    <div class="section-eyebrow" style="color:var(--green);">On a Budget?</div>
+    <h2 class="section-title">Check Out Ju's Mini Guides</h2>
+    <div class="section-sub" style="color:var(--purple);">Same spiritual power. Smaller investment. Start here and go deeper when you are ready.</div>
+    <div class="mini-grid">
+
+      <div class="mini-card">
+        <div class="mini-card-header" style="background:linear-gradient(135deg,var(--purple-bg),var(--pink-bg));">
+          <div class="mini-card-emoji">📜 🕯️ 🙏🏾</div>
+          <div class="mini-card-name">Petition Mini Guide</div>
+          <div class="mini-card-tag">No. 1 Best-Seller</div>
+          <div class="mini-price-row"><span class="mini-price">$44.44</span><span class="mini-price-orig">$222</span></div>
+        </div>
+        <div class="mini-card-body">
+          <div class="mini-card-desc">You have been praying but nothing is moving. You do not know how to write a petition that actually gets answered. This mini guide teaches you the foundation of petition work so you can start calling things in today.</div>
+          <div class="mini-feature"><span class="mini-feature-icon">✨</span><span class="mini-feature-text">What a petition is and how it works</span></div>
+          <div class="mini-feature"><span class="mini-feature-icon">✨</span><span class="mini-feature-text">Materials, marker colors, and scripture list</span></div>
+          <div class="mini-feature"><span class="mini-feature-icon">✨</span><span class="mini-feature-text">The one rule that changes everything</span></div>
+          <div class="mini-feature"><span class="mini-feature-icon">✨</span><span class="mini-feature-text">Example petition opening to fill in</span></div>
+          <div class="mini-feature"><span class="mini-feature-icon">✨</span><span class="mini-feature-text">Real results from verified buyers</span></div>
+          <a class="mini-btn" href="https://mastermanifestor888.gumroad.com/l/minipetitionguide" target="_blank">Get the Petition Mini Guide ✨</a>
+        </div>
+      </div>
+
+      <div class="mini-card">
+        <div class="mini-card-header" style="background:linear-gradient(135deg,var(--purple-bg),var(--green-bg));">
+          <div class="mini-card-emoji">⚖️ 🙏🏾 📜</div>
+          <div class="mini-card-name">Release From Jail Mini Guide</div>
+          <div class="mini-card-tag">On Sale Now</div>
+          <div class="mini-price-row"><span class="mini-price">$44.44</span><span class="mini-price-orig">$355</span></div>
+        </div>
+        <div class="mini-card-body">
+          <div class="mini-card-desc">Your loved one is locked up and you feel helpless. You have been praying with no direction and nothing is moving. This mini guide gives you the exact spiritual steps to stand in the gap and call their freedom in.</div>
+          <div class="mini-feature"><span class="mini-feature-icon" style="color:var(--purple);">✨</span><span class="mini-feature-text">Step 1: The Releasal explained with example</span></div>
+          <div class="mini-feature"><span class="mini-feature-icon" style="color:var(--purple);">✨</span><span class="mini-feature-text">Step 2: Starter petition opening to fill in</span></div>
+          <div class="mini-feature"><span class="mini-feature-icon" style="color:var(--purple);">✨</span><span class="mini-feature-text">Scriptures for release, court favor, and strength</span></div>
+          <div class="mini-feature"><span class="mini-feature-icon" style="color:var(--purple);">✨</span><span class="mini-feature-text">Daily practice while you wait</span></div>
+          <div class="mini-feature"><span class="mini-feature-icon" style="color:var(--purple);">✨</span><span class="mini-feature-text">Real testimonials from people whose loved ones came home</span></div>
+          <a class="mini-btn green-btn" href="https://mastermanifestor888.gumroad.com/l/releasefromjailminiguide" target="_blank">Get the Jail Release Mini Guide ✨</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line dl-pink"></div><div class="divider-sym" style="color:var(--green);">✨</div><div class="divider-line dl-purple"></div></div>
 
 <!-- QUIZ -->
 <section id="quiz">
   <div class="section-inner">
     <div class="section-eyebrow" style="color:var(--pink);">Free Clarity Quiz</div>
     <h2 class="section-title">What Guide Do You Need?</h2>
-    <div class="section-sub" style="color:var(--green);">Be honest. Spirit sees you exactly where you are.</div>
+    <div class="section-sub" style="color:var(--green);">Be honest with yourself. That is where the shift starts.</div>
     <div class="quiz-wrap">
       <div class="quiz-prog"><div class="quiz-bar" id="quizBar"></div></div>
       <div class="quiz-body" id="quizBody">
@@ -237,356 +375,364 @@ footer{position:relative;z-index:1;border-top:0.5px solid var(--pink-border);pad
       </div>
       <div class="quiz-result" id="quizResult"></div>
       <div class="quiz-foot" id="quizFoot">
-        <span class="quiz-step-label" id="quizStepLabel">Question 1 of 5</span>
+        <span class="quiz-step-lbl" id="quizStepLbl">Question 1 of 5</span>
         <button class="quiz-next-btn" id="quizNextBtn" onclick="quizAdvance()">Continue</button>
       </div>
     </div>
   </div>
 </section>
 
-<div class="divider"><div class="divider-line pink"></div><div class="divider-sym" style="color:var(--green);">*</div><div class="divider-line purple" style="background:var(--purple-border);"></div></div>
+<div class="divider"><div class="divider-line dl-purple"></div><div class="divider-sym" style="color:var(--pink);">*</div><div class="divider-line dl-green"></div></div>
+<div style="display:flex;justify-content:center;gap:16px;padding:8px 0;font-size:22px;">🧿 🧿 🧿</div>
 
-<!-- FUNNEL -->
+<!-- REVIEWS SLIDER -->
+<section id="shop-reviews">
+  <div class="section-inner">
+    <div class="section-eyebrow" style="color:var(--pink);">✨ What They Say</div>
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:28px;">
+      <div>
+        <h2 class="section-title">The Guides Work.</h2>
+        <div class="section-sub" style="color:var(--green);margin-bottom:0;">Real people. Real results. Real transformation.</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;">
+        <div class="shop-rating-num">5.0</div>
+        <div><div style="font-size:14px;">⭐⭐⭐⭐⭐</div><div class="shop-rating-meta">Verified Buyers</div></div>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;">
+
+      <div class="shop-review-card" style="border-color:var(--pink-border);">
+        <div class="shop-review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="shop-review-text">"I had never written a petition before. I followed Ju's process for a court situation and within two weeks everything shifted in my favor. <span class="shop-review-highlight">The case was dismissed.</span> I cannot explain it except that it worked."</div>
+        <div class="shop-review-author">T. Richardson</div>
+        <div class="shop-review-badge">Petition Work</div>
+      </div>
+
+      <div class="shop-review-card" style="border-color:var(--purple-border);">
+        <div class="shop-review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="shop-review-text">"I wrote my first petition for an apartment I had already been denied for. I reapplied after doing the work. <span class="shop-review-highlight">I got approved three days later.</span> My kids and I finally have a stable home."</div>
+        <div class="shop-review-author">A. James</div>
+        <div class="shop-review-badge">Petition Work</div>
+      </div>
+
+      <div class="shop-review-card" style="border-color:var(--green-border);">
+        <div class="shop-review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="shop-review-text">"Someone owed me over three thousand dollars and had been avoiding me for months. After doing this work <span class="shop-review-highlight">she called me out of nowhere and paid me in full.</span> No argument. Just results."</div>
+        <div class="shop-review-author">M. Stevens</div>
+        <div class="shop-review-badge">Retribution and Return to Sender</div>
+      </div>
+
+      <div class="shop-review-card" style="border-color:var(--pink-border);">
+        <div class="shop-review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="shop-review-text">"My brother had been locked up for 14 months. I used Ju's psalms and wrote the petition exactly as she taught. <span class="shop-review-highlight">He came home six weeks later.</span> I know what moved it."</div>
+        <div class="shop-review-author">D. Mitchell</div>
+        <div class="shop-review-badge">Jail Release Spiritual Work</div>
+      </div>
+
+      <div class="shop-review-card" style="border-color:var(--purple-border);">
+        <div class="shop-review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="shop-review-text">"I had been broke and stuck in the same cycle for years. <span class="shop-review-highlight">Within a month of using the poverty mindset guide I had two new income streams.</span> I still use the affirmations every single day."</div>
+        <div class="shop-review-author">K. Thomas</div>
+        <div class="shop-review-badge">Banish Poverty Mindset Guide</div>
+      </div>
+
+      <div class="shop-review-card" style="border-color:var(--green-border);">
+        <div class="shop-review-stars">⭐⭐⭐⭐⭐</div>
+        <div class="shop-review-text">"I had been praying the same prayers with no direction for years. The psalms guide finally showed me which scriptures to use for what situation. <span class="shop-review-highlight">I feel connected to my practice in a way I never did before.</span>"</div>
+        <div class="shop-review-author">J. Williams</div>
+        <div class="shop-review-badge">How to Use Psalms 1 to 150</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line dl-green"></div><div class="divider-sym" style="color:var(--purple);">*</div><div class="divider-line dl-pink"></div></div>
+
+<!-- JOURNEY -->
 <section>
   <div class="section-inner">
     <div class="section-eyebrow" style="color:var(--purple);">The Journey</div>
     <h2 class="section-title">Your Path with Ju</h2>
-    <div class="section-sub" style="color:var(--pink);">The guide is where it starts. Not where it ends.</div>
+    <div class="section-sub" style="color:var(--pink);">The guide is just the beginning of what is possible for you.</div>
     <div class="funnel-wrap">
       <div class="funnel-step">
-        <div class="funnel-dot pink">1</div>
+        <div class="funnel-dot fd-pink">1</div>
         <div class="funnel-content">
-          <div class="funnel-label" style="color:var(--pink);">Start with a Digital Guide</div>
-          <div class="funnel-desc">Pick up the guide that speaks to your situation. Use the scriptures, petitions, and prayers inside. Do the work. Watch things start to shift. This is where most people begin and it is enough to create real change on its own.</div>
+          <div class="funnel-label" style="color:var(--pink);">Start with a Guide That Meets You Where You Are</div>
+          <div class="funnel-desc">Pick the guide that speaks to what you are going through right now. Use the scriptures, petitions, and affirmations inside. Do the work. Watch things start to shift.</div>
         </div>
       </div>
       <div class="funnel-step">
-        <div class="funnel-dot green">2</div>
+        <div class="funnel-dot fd-green">2</div>
         <div class="funnel-content">
-          <div class="funnel-label" style="color:var(--green);">Join a Group Ritual</div>
-          <div class="funnel-desc">When you want to go deeper with community around you, Ju hosts group rituals where candles burn, petitions are set, and collective energy is directed with intention. You feel this one.</div>
+          <div class="funnel-label" style="color:var(--green);">Use the Work to Start Healing Emotional Blockages</div>
+          <div class="funnel-desc">A lot of what keeps us stuck in crisis and in cycles is not just circumstance. It is unhealed pain. The guides work on you emotionally and spiritually at the same time. You will start to feel the shift.</div>
         </div>
       </div>
       <div class="funnel-step">
-        <div class="funnel-dot purple">3</div>
+        <div class="funnel-dot fd-purple">3</div>
         <div class="funnel-content">
-          <div class="funnel-label" style="color:var(--purple);">Book a Private Reading</div>
-          <div class="funnel-desc">When you need answers that a guide cannot give you, when you want Ju in your energy directly, when you are ready for full clarity on your situation, a private reading is the next step. This is where the real conversation happens.</div>
+          <div class="funnel-label" style="color:var(--purple);">Book a Private Reading When You Are Ready for Clarity</div>
+          <div class="funnel-desc">When you want direct answers about your situation, your purpose, or what is coming, a private reading with Ju brings that clarity. This is where you stop guessing and start knowing.</div>
         </div>
       </div>
       <div class="funnel-step">
-        <div class="funnel-dot pink">4</div>
+        <div class="funnel-dot fd-pink">4</div>
         <div class="funnel-content">
-          <div class="funnel-label" style="color:var(--pink);">Enter the Mentorship</div>
-          <div class="funnel-desc">For those who are committed to full transformation. Shadow work, spiritual gift development, childhood healing, manifestation, and business mindset all in one program built specifically for you. This is Ju's highest level of access.</div>
+          <div class="funnel-label" style="color:var(--pink);">Transform Through Life Coaching</div>
+          <div class="funnel-desc">For those ready to do the real work. Healing from trauma, finding your purpose, shifting your money mindset, and building a life that actually feels like yours. This is a full identity shift.</div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<div class="divider"><div class="divider-line" style="background:var(--purple-border);"></div><div class="divider-sym" style="color:var(--pink);">888</div><div class="divider-line" style="background:var(--green-border);"></div></div>
+<div class="divider"><div class="divider-line dl-pink"></div><div class="divider-sym" style="color:var(--green);">888</div><div class="divider-line dl-purple"></div></div>
+<div style="display:flex;justify-content:center;gap:16px;padding:8px 0;font-size:22px;">🧿 🧿 🧿</div>
 
-<!-- PRODUCT CATEGORIES -->
+<!-- ALL GUIDES -->
 <section id="products">
   <div class="section-inner">
     <div class="section-eyebrow" style="color:var(--green);">All Guides</div>
     <h2 class="section-title">Browse by Category</h2>
     <div class="section-sub" style="color:var(--purple);">Every guide is written by Ju. All of it works.</div>
     <div class="cats-grid">
+
       <div class="cat-card c-pink">
         <div class="cat-icon">⚖️</div>
         <div class="cat-name pink">Justice</div>
         <div class="cat-count">6 guides</div>
         <div class="cat-items">
-          <div class="cat-item pink">Release Your Loved One From Jail</div>
-          <div class="cat-item pink">Legal Matters Guide: Court and Trials</div>
-          <div class="cat-item pink">Release from Jail Cheat Sheet</div>
-          <div class="cat-item pink">Retribution and Return to Sender</div>
-          <div class="cat-item pink">Magickal Scriptures for Protection</div>
-          <div class="cat-item pink">Lost Book of Enoch Scripture List</div>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/ReleaseUrLovedOnesGuide" target="_blank" style="text-decoration:none;color:inherit;">Release Your Loved One From Jail <span class="cat-price">$355.55</span></a>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/LegalMattersMastery" target="_blank" style="text-decoration:none;color:inherit;">Legal Matters Guide: Court, Trials & Jail <span class="cat-price">$288.88</span></a>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/ReleaseFromJailGuide" target="_blank" style="text-decoration:none;color:inherit;">Release from Jail Cheat Sheet (For Yourself) <span class="cat-price">$188.88</span></a>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/RetributionReturntoSender" target="_blank" style="text-decoration:none;color:inherit;">Retribution & Return to Sender <span class="cat-price">$222.22</span></a>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/SpiritualProtection" target="_blank" style="text-decoration:none;color:inherit;">Magickal Scriptures for Spiritual Protection <span class="cat-price">$288.88</span></a>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/LostBookOfEnoch" target="_blank" style="text-decoration:none;color:inherit;">Lost Book of Enoch Scripture List <span class="cat-price">$333.33</span></a>
         </div>
       </div>
+
       <div class="cat-card c-green">
         <div class="cat-icon">💕</div>
-        <div class="cat-name green">Self Love and Love</div>
+        <div class="cat-name green">Self Love & Love</div>
         <div class="cat-count">6 guides</div>
         <div class="cat-items">
-          <div class="cat-item green">Healing After Sexual Trauma for Black Women</div>
-          <div class="cat-item green">Beauty and Glamour Scripture List</div>
-          <div class="cat-item green">Strengthen Your Love: Binding and Spell Work</div>
-          <div class="cat-item green">Strong Love, Attraction and Marriage</div>
-          <div class="cat-item green">Love Petition Written by Ju</div>
-          <div class="cat-item green">Ready to Relocate Scripture List</div>
+          <a class="cat-item green" href="https://mastermanifestor888.gumroad.com/l/HealingAncestralSexualTraumaGuide" target="_blank" style="text-decoration:none;color:inherit;">Healing After Sexual Trauma for Black Women <span class="cat-price">$555.55</span></a>
+          <a class="cat-item green" href="https://mastermanifestor888.gumroad.com/l/BeautyGlamourScriptures" target="_blank" style="text-decoration:none;color:inherit;">Beauty & Glamour Scripture List <span class="cat-price">$188.88</span></a>
+          <a class="cat-item green" href="https://mastermanifestor888.gumroad.com/l/StrengthenYourLoveScriptures" target="_blank" style="text-decoration:none;color:inherit;">Strengthen Your Love: Binding & Spell Work <span class="cat-price">$333.33</span></a>
+          <a class="cat-item green" href="https://mastermanifestor888.gumroad.com/l/StrongLoveAttractionMarriage" target="_blank" style="text-decoration:none;color:inherit;">Strong Love, Attraction & Marriage <span class="cat-price">$188.88</span></a>
+          <a class="cat-item green" href="https://mastermanifestor888.gumroad.com/l/LovePetitionByJu" target="_blank" style="text-decoration:none;color:inherit;">Love Petition Written by Ju <span class="cat-price">$111.11</span></a>
+          <a class="cat-item green" href="https://mastermanifestor888.gumroad.com/l/ReadyToRelocate" target="_blank" style="text-decoration:none;color:inherit;">Ready to Relocate Scripture List <span class="cat-price">$288.88</span></a>
         </div>
       </div>
+
       <div class="cat-card c-purple">
         <div class="cat-icon">💰</div>
-        <div class="cat-name purple">Money and Manifestation</div>
+        <div class="cat-name purple">Money & Manifestation</div>
         <div class="cat-count">6 guides</div>
         <div class="cat-items">
-          <div class="cat-item purple">Banish Poverty Mindset: Scriptures and Affirmations</div>
-          <div class="cat-item purple">Increase My Money: Magickal Scriptures</div>
-          <div class="cat-item purple">Big Money, New Business: 120 Scriptures</div>
-          <div class="cat-item purple">Financial Success Petition Written by Ju</div>
-          <div class="cat-item purple">Unlocking Abundance and Overcoming Lack</div>
-          <div class="cat-item purple">Ready to Relocate Scripture List</div>
+          <a class="cat-item purple" href="https://mastermanifestor888.gumroad.com/l/BanishPovertyGuide" target="_blank" style="text-decoration:none;color:inherit;">Banish Poverty Mindset: Scriptures & Affirmations <span class="cat-price">$222.22</span></a>
+          <a class="cat-item purple" href="https://mastermanifestor888.gumroad.com/l/IncreaseMyMoneyScriptures" target="_blank" style="text-decoration:none;color:inherit;">Increase My Money: Magickal Scriptures <span class="cat-price">$111.11</span></a>
+          <a class="cat-item purple" href="https://mastermanifestor888.gumroad.com/l/BigMoneyNewBusiness" target="_blank" style="text-decoration:none;color:inherit;">Big Money, New Business: 120+ Scriptures <span class="cat-price">$225.55</span></a>
+          <a class="cat-item purple" href="https://mastermanifestor888.gumroad.com/l/FinancialSuccessPetition" target="_blank" style="text-decoration:none;color:inherit;">Financial Success Petition Written by Ju <span class="cat-price">$111.11</span></a>
+          <a class="cat-item purple" href="https://mastermanifestor888.gumroad.com/l/UnlockingAbundanceOvercomingLack" target="_blank" style="text-decoration:none;color:inherit;">Unlocking Abundance & Overcoming Lack Mindset <span class="cat-price">$225.55</span></a>
+          <a class="cat-item purple" href="https://mastermanifestor888.gumroad.com/l/ReadyToRelocate" target="_blank" style="text-decoration:none;color:inherit;">Ready to Relocate Scripture List <span class="cat-price">$288.88</span></a>
         </div>
       </div>
+
       <div class="cat-card c-pink">
         <div class="cat-icon">✨</div>
         <div class="cat-name pink">Beginner Guides</div>
-        <div class="cat-count">3 guides</div>
+        <div class="cat-count">4 guides</div>
         <div class="cat-items">
-          <div class="cat-item pink">The Releasal Cheat Sheet: Remove and Let Go</div>
-          <div class="cat-item pink">Petition Cheat Sheet: Requests That Get Answers</div>
-          <div class="cat-item pink">How to Use Psalms 1 to 150: Full Scripture List</div>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/relesalcheatsheet" target="_blank" style="text-decoration:none;color:inherit;">The Releasal Cheat Sheet: Remove & Let Go <span class="cat-price">$222.22</span></a>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/petitionguide" target="_blank" style="text-decoration:none;color:inherit;">Petition Cheat Sheet: Requests That Get Answers <span class="cat-price">$222.22</span></a>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/Psalms1-150" target="_blank" style="text-decoration:none;color:inherit;">How to Use Psalms 1 to 150 <span class="cat-price">$225.55</span></a>
+          <a class="cat-item pink" href="https://mastermanifestor888.gumroad.com/l/StudentSuccessPassingExams" target="_blank" style="text-decoration:none;color:inherit;">Student Success & Passing Exams Cheat Sheet <span class="cat-price">$199.99</span></a>
         </div>
       </div>
+
       <div class="cat-card c-green">
         <div class="cat-icon">🪄</div>
         <div class="cat-name green">Written Petitions by Ju</div>
-        <div class="cat-count">4 guides</div>
+        <div class="cat-count">2 petitions</div>
         <div class="cat-items">
-          <div class="cat-item green">Love Petition Written by Ju</div>
-          <div class="cat-item green">Financial Success Petition Written by Ju</div>
-          <div class="cat-item green">Release Your Loved One From Jail</div>
-          <div class="cat-item green">Student Success and Passing Exams</div>
+          <a class="cat-item green" href="https://mastermanifestor888.gumroad.com/l/LovePetitionByJu" target="_blank" style="text-decoration:none;color:inherit;">Love Petition Written by Ju <span class="cat-price">$111.11</span></a>
+          <a class="cat-item green" href="https://mastermanifestor888.gumroad.com/l/FinancialSuccessPetition" target="_blank" style="text-decoration:none;color:inherit;">Financial Success Petition Written by Ju <span class="cat-price">$111.11</span></a>
         </div>
       </div>
+
+      <div class="cat-card c-purple">
+        <div class="cat-icon">🔥</div>
+        <div class="cat-name purple">Mini Guides (On Sale)</div>
+        <div class="cat-count">2 guides</div>
+        <div class="cat-items">
+          <a class="cat-item purple" href="https://mastermanifestor888.gumroad.com/l/minipetitionguide" target="_blank" style="text-decoration:none;color:inherit;">Petition Mini Guide <span class="cat-price">$44.44</span></a>
+          <a class="cat-item purple" href="https://mastermanifestor888.gumroad.com/l/releasefromjailminiguide" target="_blank" style="text-decoration:none;color:inherit;">Release From Jail Mini Guide <span class="cat-price">$44.44</span></a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
+<div class="divider"><div class="divider-line dl-purple"></div><div class="divider-sym" style="color:var(--pink);">888</div><div class="divider-line dl-green"></div></div>
+
+<!-- FOOTER -->
 <footer>
-  <div class="footer-brand">JuDigital</div>
-  <div class="footer-sub">Master Manifestation Coaching</div>
-  <a class="footer-link" href="https://mastermanifestor888readings.com" target="_blank">Book a Private Reading with Ju</a>
+  <div class="footer-brand">Master Manifestation Coaching</div>
+  <div class="footer-sub">Healing. Purpose. Abundance.</div>
+  <div style="display:flex;gap:16px;justify-content:center;margin:18px 0;">
+    <a href="https://tiktok.com/@master_manifestor888" target="_blank" style="display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;">
+      <div style="width:44px;height:44px;border-radius:50%;background:var(--pink-bg);border:0.5px solid var(--pink-border);display:flex;align-items:center;justify-content:center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.76a4.85 4.85 0 01-1.01-.07z" fill="#f472b6"/></svg>
+      </div>
+      <span style="font-family:'Cinzel',serif;font-size:9px;color:var(--pink);letter-spacing:0.1em;">TikTok</span>
+    </a>
+    <a href="https://instagram.com/Mastermanifestor888" target="_blank" style="display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;">
+      <div style="width:44px;height:44px;border-radius:50%;background:var(--purple-bg);border:0.5px solid var(--purple-border);display:flex;align-items:center;justify-content:center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#c084fc" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="#c084fc" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="#c084fc"/></svg>
+      </div>
+      <span style="font-family:'Cinzel',serif;font-size:9px;color:var(--purple);letter-spacing:0.1em;">Instagram</span>
+    </a>
+    <a href="https://youtube.com/@Mastermanifestor888" target="_blank" style="display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;">
+      <div style="width:44px;height:44px;border-radius:50%;background:var(--green-bg);border:0.5px solid var(--green-border);display:flex;align-items:center;justify-content:center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z" stroke="#4ade80" stroke-width="1.5"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#4ade80"/></svg>
+      </div>
+      <span style="font-family:'Cinzel',serif;font-size:9px;color:var(--green);letter-spacing:0.1em;">YouTube</span>
+    </a>
+  </div>
+  <div class="footer-links">
+    <a href="#quiz">Free Quiz</a>
+    <a href="#mini-guides">Mini Guides</a>
+    <a href="#products">All Guides</a>
+    <a href="https://mastermanifestor888.gumroad.com" target="_blank">Shop All Guides on Gumroad</a>
+  </div>
 </footer>
 
 <script>
 var QS = [
-  {
-    q: "Let us start here. If you are being completely honest with yourself, what has been keeping you up at night?",
-    hint: "You do not have to explain it to anyone. Just pick the one that hits closest.",
-    opts: [
-      {icon:"⚖️", text:"Someone did me wrong and I have been waiting on justice that has not shown up yet. I am tired of waiting."},
-      {icon:"💕", text:"My heart has been through something. Love, a specific person, or just feeling completely alone in it."},
-      {icon:"💰", text:"Money. The stress of it, the lack of it, or the feeling that no matter what I do I cannot get ahead."},
-      {icon:"🔒", text:"Someone I love is locked up, in trouble, or I need serious protection from something coming at me."}
-    ]
-  },
-  {
-    q: "How long have you been carrying this?",
-    hint: "Because how long it has been sitting there matters.",
-    opts: [
-      {icon:"🌱", text:"This is relatively new and I am still figuring out what I even need. I have not done much spiritual work before."},
-      {icon:"🌙", text:"A while. I have tried some things but nothing has fully moved yet and I am starting to lose faith."},
-      {icon:"🔥", text:"Too long. I have done the prayer, I have done the work, and I need something stronger and more specific."},
-      {icon:"🤍", text:"It goes back further than I like to admit. This is rooted in something old, something from my past or my childhood."}
-    ]
-  },
-  {
-    q: "When you imagine your life actually changing, what does that look like?",
-    hint: "Not what you think you should want. What you actually want.",
-    opts: [
-      {icon:"⚖️", text:"Someone being held accountable. What was taken from me being returned. My name being cleared or my loved one coming home."},
-      {icon:"💞", text:"Real love. Feeling chosen, wanted, and at peace in my relationships instead of anxious and drained."},
-      {icon:"💵", text:"Financial peace. Not worrying about bills, building something real, and finally feeling like money is not the enemy."},
-      {icon:"🛡️", text:"Safety. Clarity. The feeling that I am protected and that what has been sent against me cannot touch me anymore."}
-    ]
-  },
-  {
-    q: "How do you connect most with your spiritual practice?",
-    hint: "This helps Ju match you to the format that will actually work for you.",
-    opts: [
-      {icon:"📝", text:"I want someone who knows what they are doing to write it for me. I trust Ju to set the intention correctly."},
-      {icon:"📖", text:"I want to learn. Give me the scriptures, show me how to use them, and let me build my own relationship with this practice."},
-      {icon:"🎯", text:"I need everything in one place. A full guide with the prayers, the petitions, the scriptures. No guessing."},
-      {icon:"💫", text:"I am still figuring out what works for me. I just know I need something and I am open to where this leads."}
-    ]
-  },
-  {
-    q: "Last one. What do you need permission to do that you have not given yourself yet?",
-    hint: "Read each one slowly. You will feel the right answer.",
-    opts: [
-      {icon:"🌑", text:"Permission to grieve, to let go, and to stop holding onto pain that has already cost me enough."},
-      {icon:"🔥", text:"Permission to want more, to go after it unapologetically, and to believe I actually deserve it."},
-      {icon:"🧘🏾", text:"Permission to heal without rushing. To take care of myself the way I take care of everyone else."},
-      {icon:"👊🏾", text:"Permission to fight back. To stop being passive about what has been done to me and to use every spiritual tool available."}
-    ]
-  }
+  {q:"Let us start here. What has been weighing on you the most lately?",hint:"Pick the one that hits closest. No judgment.",opts:[{icon:"⚖️",text:"Someone wronged me or something was taken from me and I am still waiting on justice"},{icon:"💕",text:"My heart has been through something. Love, a person, or just feeling completely alone in it"},{icon:"💰",text:"Money stress, financial blocks, or feeling like no matter what I do I cannot get ahead"},{icon:"🔮",text:"I need spiritual clarity on my life, my purpose, or what is coming next for me"}]},
+  {q:"How long have you been carrying this?",hint:"Because how long it has been sitting there matters.",opts:[{icon:"🌱",text:"This is relatively new and I am still figuring out what I even need"},{icon:"🌙",text:"A while. I have tried some things but nothing has fully moved yet"},{icon:"🔥",text:"Too long. I have done the prayer, I have done the work, and I need something stronger"},{icon:"🤍",text:"It goes back further than I like to admit. This is rooted in something old"}]},
+  {q:"When you imagine your situation actually shifting, what does that look like?",hint:"Not what you think you should want. What you actually want.",opts:[{icon:"⚖️",text:"Someone being held accountable, what was mine being returned, or my loved one coming home"},{icon:"💞",text:"Real love. Feeling chosen and at peace instead of anxious and drained"},{icon:"💵",text:"Financial peace. Not worrying about bills. Building something real and lasting"},{icon:"✨",text:"Full clarity on who I am, what my gifts are, and where my life is going"}]},
+  {q:"Have you experienced any loss, grief, or trauma that you feel is still affecting you today?",hint:"This one matters more than it seems.",opts:[{icon:"🌑",text:"Yes, deeply. Childhood wounds, trauma, or pain I have been carrying for a long time"},{icon:"🕊️",text:"I lost someone or something and I have not fully healed from it"},{icon:"🤍",text:"I experienced pregnancy loss and I carry that with me every day"},{icon:"💫",text:"Not specifically, but I feel disconnected from myself and I am not sure why"}]},
+  {q:"Last one. What do you need most from this experience?",hint:"Read each one slowly. You will feel the right answer.",opts:[{icon:"🎯",text:"Answers. Direct clarity on my specific situation from someone who will not sugarcoat it"},{icon:"🕯️",text:"Tools. Real spiritual tools I can use on my own to start moving things"},{icon:"💜",text:"Healing. Understanding why my life has looked the way it has and how to finally change it"},{icon:"🌟",text:"Direction. To know what my next steps are and that I am not walking this alone"}]}
 ];
 
 var PRODUCTS = {
-  justice: [
-    {cat:"Justice", name:"Release Your Loved One From Jail", desc:"Includes 15 petitions and 60 scriptures. Advocating for an innocent loved one.", price:"$355.55"},
-    {cat:"Justice", name:"Legal Matters Guide: For Court, Trials and Releasing the Innocent", desc:"Includes 3 written petitions. For anyone facing legal situations.", price:"$288.88"},
-    {cat:"Justice", name:"Retribution and Return to Sender", desc:"60 magickal scriptures for spiritual justice and returning what was sent.", price:"$222.22"}
+  justice:[
+    {link:"https://mastermanifestor888.gumroad.com/l/ReleaseUrLovedOnesGuide",cat:"Justice",name:"Release Your Loved One From Jail | Includes 15+ Petitions & 60+ Scriptures",price:"$355.55",desc:"15 written petitions and 60 scriptures for advocating on behalf of your incarcerated loved one."},
+    {link:"https://mastermanifestor888.gumroad.com/l/LegalMattersMastery",cat:"Justice",name:"Legal Matters Guide: For Favor in Court, Trials & Releasing the Innocent",price:"$288.88",desc:"Includes 3 written petitions. For court dates, charges, and legal favor."},
+    {link:"https://mastermanifestor888.gumroad.com/l/ReleaseFromJailGuide",cat:"Justice",name:"Release from Jail: Cheat Sheet (Advocating on Behalf of Yourself)",price:"$188.88",desc:"14 scriptures and 3 prayers for advocating spiritually on your own behalf."}
   ],
-  love: [
-    {cat:"Self Love and Love", name:"Love Petition Written by Ju", desc:"A fully written petition by Ju herself for calling in love or a specific person.", price:"$111.11"},
-    {cat:"Self Love and Love", name:"Strengthen Your Love: Binding and Spell Work", desc:"200 scriptures for binding and love spell work.", price:"$333.33"},
-    {cat:"Self Love and Love", name:"Healing After Sexual Trauma for Black Women", desc:"A complete healing guide for reclaiming your voice and your life.", price:"$555.55"}
+  love:[
+    {link:"https://mastermanifestor888.gumroad.com/l/LovePetitionByJu",cat:"Love",name:"Love Petition (Written by Ju)",price:"$111.11",desc:"A fully written petition by Ju for calling in love or a specific person."},
+    {link:"https://mastermanifestor888.gumroad.com/l/StrengthenYourLoveScriptures",cat:"Love",name:"Strengthen Your Love: 200+ Scriptures for Binding & Spell Work",price:"$333.33",desc:"200 scriptures for binding and love spell work."},
+    {link:"https://mastermanifestor888.gumroad.com/l/StrongLoveAttractionMarriage",cat:"Love",name:"Strong Love, Attraction & Marriage: 45+ Magickal Scripture List",price:"$188.88",desc:"45 magickal scriptures for love, attraction, and marriage work."}
   ],
-  money: [
-    {cat:"Money and Manifestation", name:"Financial Success Petition Written by Ju", desc:"A petition written by Ju specifically for financial breakthrough.", price:"$111.11"},
-    {cat:"Money and Manifestation", name:"Big Money, New Business", desc:"120 magickal scriptures and affirmations for business growth and financial increase.", price:"$225.55"},
-    {cat:"Money and Manifestation", name:"Banish Poverty Mindset and Thinking", desc:"50 magickal scriptures and 70 affirmations to shift your money mindset permanently.", price:"$222.22"}
+  money:[
+    {link:"https://mastermanifestor888.gumroad.com/l/FinancialSuccessPetition",cat:"Money",name:"Financial Success Petition (Written By Ju)",price:"$111.11",desc:"A petition written by Ju specifically for financial breakthrough."},
+    {link:"https://mastermanifestor888.gumroad.com/l/BigMoneyNewBusiness",cat:"Money",name:"Big Money, New Business: 120+ Magickal Scriptures & Affirmations",price:"$225.55",desc:"120 scriptures and affirmations for business growth and financial increase."},
+    {link:"https://mastermanifestor888.gumroad.com/l/BanishPovertyGuide",cat:"Money",name:"Banish Poverty Mindset And Thinking: 50+ Magickal Scriptures & 70+ Affirmations",price:"$222.22",desc:"50 scriptures and 70 affirmations to permanently shift your money mindset."}
   ],
-  beginner: [
-    {cat:"Beginner", name:"Petition Cheat Sheet: Making Requests That Actually Get Answers", desc:"The foundation guide for anyone new to petition work.", price:"$222.22"},
-    {cat:"Beginner", name:"How to Use Psalms 1 to 150: Magickal Scripture List", desc:"The full 150 psalm reference guide with their magickal uses.", price:"$225.55"},
-    {cat:"Beginner", name:"The Releasal Cheat Sheet: Remove, Let Go and Rebuke Negativity", desc:"For anyone who needs to clear energy, cut ties, and start fresh.", price:"$222.22"}
+  beginner:[
+    {link:"https://mastermanifestor888.gumroad.com/l/petitionguide",cat:"Beginner",name:"Petition Cheat Sheet: Making Requests That Actually Get Answers",price:"$222.22",desc:"The full foundation guide for petition work with scriptures and worksheets."},
+    {link:"https://mastermanifestor888.gumroad.com/l/Psalms1-150",cat:"Beginner",name:"How to Use Psalms 1-150: Magickal Scripture List of 150 Psalms",price:"$225.55",desc:"The complete 150 psalm reference guide with their magickal uses."},
+    {link:"https://mastermanifestor888.gumroad.com/l/relesalcheatsheet",cat:"Beginner",name:"The Releasal Cheat Sheet: How to Remove, Let Go & Rebuke Negativity",price:"$222.22",desc:"For clearing energy, cutting ties, and starting fresh spiritually."}
   ],
-  protection: [
-    {cat:"Justice and Protection", name:"Magickal Scriptures for Spiritual Protection", desc:"100 scriptures and affirmations for shielding yourself and your home.", price:"$288.88"},
-    {cat:"Justice", name:"Release from Jail Cheat Sheet", desc:"Advocating on behalf of yourself. Includes 14 scriptures and 3 prayers.", price:"$188.88"},
-    {cat:"Justice", name:"Unlocking Mystical Secrets: The Lost Book of Enoch", desc:"Advanced magickal scripture content for serious practitioners.", price:"$333.33"}
+  protection:[
+    {link:"https://mastermanifestor888.gumroad.com/l/SpiritualProtection",cat:"Protection",name:"Magickal Scriptures for Spiritual Protection: 100 Scriptures & Affirmations",price:"$288.88",desc:"100 scriptures and affirmations for shielding yourself and your home."},
+    {link:"https://mastermanifestor888.gumroad.com/l/RetributionReturntoSender",cat:"Protection",name:"Retribution & Return to Sender: 60+ Magickal Scripture List",price:"$222.22",desc:"60 magickal scriptures for spiritual justice and returning what was sent."},
+    {link:"https://mastermanifestor888.gumroad.com/l/LostBookOfEnoch",cat:"Protection",name:"Unlocking Mystical Secrets: The LOST Book of Enoch Scripture List",price:"$333.33",desc:"Advanced magickal scripture content for serious practitioners."}
   ],
-  healing: [
-    {cat:"Self Love", name:"Healing After Sexual Trauma for Black Women", desc:"Reclaiming your voice and thriving after trauma. Written with deep intention.", price:"$555.55"},
-    {cat:"Beginner", name:"The Releasal Cheat Sheet", desc:"How to remove, let go, and rebuke negativity from your life completely.", price:"$222.22"},
-    {cat:"Self Love", name:"Beauty and Glamour: 45 Magickal Scriptures", desc:"For self love, physical confidence, and glamour work.", price:"$188.88"}
+  healing:[
+    {link:"https://mastermanifestor888.gumroad.com/l/HealingAncestralSexualTraumaGuide",cat:"Healing",name:"Reclaiming Your Voice: A Guide to Healing After Sexual Trauma for Black Women",price:"$555.55",desc:"A complete healing guide for reclaiming your voice and your life."},
+    {link:"https://mastermanifestor888.gumroad.com/l/relesalcheatsheet",cat:"Healing",name:"The Releasal Cheat Sheet: How to Remove, Let Go & Rebuke Negativity",price:"$222.22",desc:"For clearing energy, cutting emotional ties, and releasing what has kept you bound."},
+    {link:"https://mastermanifestor888.gumroad.com/l/BeautyGlamourScriptures",cat:"Healing",name:"Beauty & Glamour: 45+ Magickal Scripture List",price:"$188.88",desc:"For self love, physical confidence, and glamour work."}
   ]
 };
 
 var RESULT_MSGS = {
-  justice: {
-    color:"var(--pink)", tag:"Your Path: Justice and Spiritual Warfare",
-    title:"Spirit Is Confirming Your Case Has Not Been Forgotten",
-    msg:"What was taken from you, what was done to you, what has been delayed, all of it is still on the table. These guides will give you the exact spiritual tools to advocate on your own behalf or fight for someone you love.",
-    deeper:"When you are ready to go deeper, Ju's private Deep Dive reading will give you direct spiritual clarity on your situation and what needs to move."
-  },
-  love: {
-    color:"var(--green)", tag:"Your Path: Love and Heart Healing",
-    title:"Your Heart Deserves What It Has Been Asking For",
-    msg:"Whether you are calling someone in, healing from someone, or learning to love yourself again, these guides carry the scripture and petition work that moves energy in the area of love.",
-    deeper:"When you are ready for a private session, Ju's Deep Dive Reading can focus directly on your love situation and what spirit says is coming."
-  },
-  money: {
-    color:"var(--purple)", tag:"Your Path: Abundance and Financial Shift",
-    title:"The Lack Mindset Ends Here",
-    msg:"Poverty thinking is spiritual before it is financial. These guides attack it at the root with scriptures, affirmations, and petitions written specifically to shift your money energy and open new doors.",
-    deeper:"When you are ready for 1 on 1 guidance, Ju's mentorship program goes deep on money mindset, manifestation, and building real income."
-  },
-  beginner: {
-    color:"var(--pink)", tag:"Your Path: Foundations First",
-    title:"You Are Exactly Where You Are Supposed to Be",
-    msg:"Starting from the foundation is not a weakness. It is wisdom. These beginner guides will teach you how to petition, how to use psalms, and how to do your own spiritual work with confidence and accuracy.",
-    deeper:"Once you have worked through the guides and want to go deeper, Ju's readings and mentorship are waiting for you."
-  },
-  protection: {
-    color:"var(--green)", tag:"Your Path: Protection and Release",
-    title:"It Is Time to Put Up a Spiritual Wall",
-    msg:"Something has been coming at you and you know it. These guides arm you with scriptures, protections, and petitions that create a spiritual barrier and send back what does not belong to you.",
-    deeper:"For situations involving serious spiritual attack or legal matters, a private reading with Ju will give you direct guidance on what is happening and what to do."
-  },
-  healing: {
-    color:"var(--purple)", tag:"Your Path: Healing and Restoration",
-    title:"You Are Ready to Put Yourself Back Together",
-    msg:"Healing is not linear and it is not small. These guides were written for women who have been through real things and are ready to reclaim their power, their voice, and their peace.",
-    deeper:"When you feel ready, Ju's mentorship program includes shadow work and childhood trauma healing as core pillars. You do not have to do this alone."
-  }
+  justice:{link:"https://mastermanifestor888.gumroad.com/l/ReleaseUrLovedOnesGuide",color:"var(--pink)",tag:"Your Path: Justice and Spiritual Warfare",title:"What Was Taken From You Has Not Been Forgotten.",msg:"These guides give you the exact spiritual tools to advocate on your own behalf or fight for someone you love. The work is specific, the results are real.",deeper:"When you are ready to go deeper, a private reading with Ju will give you direct spiritual clarity on your situation and what needs to move."},
+  love:{link:"https://mastermanifestor888.gumroad.com/l/LovePetitionByJu",color:"var(--green)",tag:"Your Path: Love and Heart Healing",title:"Your Heart Deserves What It Has Been Asking For.",msg:"Whether you are calling someone in, healing from someone, or learning to love yourself again, these guides carry the scripture and petition work that moves energy in love.",deeper:"When you are ready for a private session, a Deep Dive Reading with Ju can focus directly on your love situation."},
+  money:{link:"https://mastermanifestor888.gumroad.com/l/FinancialSuccessPetition",color:"var(--purple)",tag:"Your Path: Abundance and Financial Shift",title:"The Lack Ends Here.",msg:"Poverty thinking is spiritual before it is financial. These guides attack it at the root with scriptures, affirmations, and petitions written specifically to shift your money energy.",deeper:"When you are ready for 1 on 1 guidance, Ju is ready to go deeper on money mindset, manifestation, and building real income."},
+  beginner:{link:"https://mastermanifestor888.gumroad.com/l/petitionguide",color:"var(--pink)",tag:"Your Path: Foundations First",title:"You Are Exactly Where You Are Supposed to Be.",msg:"Starting from the foundation is wisdom. These guides teach you how to petition, how to use psalms, and how to do your own spiritual work with confidence.",deeper:"Once you have worked through the guides and want to go deeper, Ju readings and mentorship are waiting."},
+  protection:{link:"https://mastermanifestor888.gumroad.com/l/SpiritualProtection",color:"var(--green)",tag:"Your Path: Protection and Release",title:"It Is Time to Put Up a Spiritual Wall.",msg:"Something has been coming at you and you know it. These guides arm you with scriptures, protections, and petitions that create a spiritual barrier and send back what does not belong to you.",deeper:"For situations involving serious spiritual attack, a private reading with Ju will give you direct guidance on what is happening and what to do."},
+  healing:{link:"https://mastermanifestor888.gumroad.com/l/HealingAncestralSexualTraumaGuide",color:"var(--purple)",tag:"Your Path: Healing and Restoration",title:"You Are Ready to Put Yourself Back Together.",msg:"Healing is not linear and it is not small. These guides were written for women who have been through real things and are ready to reclaim their power, their voice, and their peace.",deeper:"When you feel ready, The mentorship program includes shadow work and childhood trauma healing as core pillars. You do not have to do this alone."}
 };
 
-var answers = [];
-var current = 0;
+var answers=[], current=0;
+var TOTAL=QS.length;
 
 function scoreAnswers(){
-  var s = {justice:0, love:0, money:0, beginner:0, protection:0, healing:0};
-  var q0 = answers[0];
-  if(q0===0) s.justice+=3;
-  if(q0===1) s.love+=3;
-  if(q0===2) s.money+=3;
-  if(q0===3) s.protection+=3;
-  var q1 = answers[1];
-  if(q1===0) s.beginner+=2;
-  if(q1===1){s.justice+=1;s.love+=1;s.money+=1;}
-  if(q1===2){s.justice+=2;s.protection+=2;}
-  if(q1===3) s.healing+=2;
-  var q2 = answers[2];
-  if(q2===0) s.justice+=3;
-  if(q2===1) s.love+=3;
-  if(q2===2) s.money+=3;
-  if(q2===3) s.protection+=3;
-  var q3 = answers[3];
-  if(q3===0){s.love+=1;s.money+=1;s.justice+=1;}
-  if(q3===1){s.justice+=1;s.love+=1;s.money+=1;s.protection+=1;}
-  if(q3===2){s.beginner+=2;}
-  var q4 = answers[4];
-  if(q4===0) s.healing+=3;
-  if(q4===1){s.justice+=1;s.money+=1;s.love+=1;}
-  if(q4===2) s.healing+=2;
-  if(q4===3){s.justice+=2;s.protection+=2;}
-  var top="beginner", max=0;
+  var s={justice:0,love:0,money:0,beginner:0,protection:0,healing:0};
+  var q0=answers[0],q1=answers[1],q2=answers[2],q3=answers[3],q4=answers[4];
+  if(q0===0) s.justice+=3; if(q0===1) s.love+=3; if(q0===2) s.money+=3; if(q0===3) s.beginner+=2;
+  if(q1===0) s.beginner+=2; if(q1===1){s.justice+=1;s.love+=1;s.money+=1;} if(q1===2){s.justice+=2;s.protection+=2;} if(q1===3) s.healing+=2;
+  if(q2===0) s.justice+=3; if(q2===1) s.love+=3; if(q2===2) s.money+=3; if(q2===3) s.beginner+=2;
+  if(q3===0) s.healing+=2; if(q3===1) s.healing+=2; if(q3===2) s.healing+=3; if(q3===3){s.healing+=1;s.protection+=1;}
+  if(q4===0){s.justice+=1;s.love+=1;s.money+=1;} if(q4===1){s.justice+=1;s.beginner+=2;s.protection+=1;} if(q4===2) s.healing+=2; if(q4===3){s.beginner+=1;s.money+=1;}
+  var top="beginner",max=0;
   Object.keys(s).forEach(function(k){if(s[k]>max){max=s[k];top=k;}});
   return top;
 }
 
 function renderQ(){
-  var data = QS[current];
-  document.getElementById("quizQ").textContent = data.q;
-  document.getElementById("quizHint").textContent = data.hint;
+  var d=QS[current];
+  document.getElementById("quizQ").textContent=d.q;
+  document.getElementById("quizHint").textContent=d.hint;
   var h="";
-  data.opts.forEach(function(o,i){
-    var sel = answers[current]===i ? " selected" : "";
-    h += '<button class="quiz-opt'+sel+'" onclick="pickOpt(this,'+i+')">';
-    h += '<span class="quiz-opt-icon">'+o.icon+'</span>';
-    h += '<span>'+o.text+'</span></button>';
+  d.opts.forEach(function(o,i){
+    var sel=answers[current]===i?" selected":"";
+    h+='<button class="quiz-opt'+sel+'" onclick="pickOpt(this,'+i+')"><span class="quiz-opt-icon">'+o.icon+'</span><span>'+o.text+"</span></button>";
   });
-  document.getElementById("quizOpts").innerHTML = h;
-  document.getElementById("quizStepLabel").textContent = "Question "+(current+1)+" of "+QS.length;
-  document.getElementById("quizBar").style.width = ((current/QS.length)*100)+"%";
-  var btn = document.getElementById("quizNextBtn");
-  btn.classList.toggle("active", answers[current]!==undefined);
+  document.getElementById("quizOpts").innerHTML=h;
+  document.getElementById("quizStepLbl").textContent="Question "+(current+1)+" of "+TOTAL;
+  document.getElementById("quizBar").style.width=((current/TOTAL)*100)+"%";
+  document.getElementById("quizNextBtn").classList.toggle("active",answers[current]!==undefined);
 }
 
-function pickOpt(el, idx){
+function pickOpt(el,idx){
   document.querySelectorAll(".quiz-opt").forEach(function(o){o.classList.remove("selected");});
   el.classList.add("selected");
-  answers[current] = idx;
+  answers[current]=idx;
   document.getElementById("quizNextBtn").classList.add("active");
 }
 
 function quizAdvance(){
   if(answers[current]===undefined) return;
-  if(current < QS.length-1){
-    current++;
-    renderQ();
-  } else {
-    showResult();
-  }
+  if(current<TOTAL-1){current++;renderQ();}
+  else showResult();
 }
 
 function showResult(){
   document.getElementById("quizBar").style.width="100%";
   document.getElementById("quizBody").style.display="none";
   document.getElementById("quizFoot").style.display="none";
-  var key = scoreAnswers();
-  var rm = RESULT_MSGS[key];
-  var prods = PRODUCTS[key];
+  var key=scoreAnswers();
+  var rm=RESULT_MSGS[key];
+  var prods=PRODUCTS[key];
   var ph="";
   prods.forEach(function(p){
-    ph += '<div class="result-product">';
-    ph += '<div class="result-product-info">';
-    ph += '<div class="result-product-cat" style="color:'+rm.color+'">'+p.cat+'</div>';
-    ph += '<div class="result-product-name">'+p.name+'</div>';
-    ph += '<div class="result-product-desc">'+p.desc+'</div>';
-    ph += '</div>';
-    ph += '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;">';
-    ph += '<div class="result-product-price" style="color:'+rm.color+'">'+p.price+'</div>';
-    ph += '<button class="result-buy-btn" onclick="alert(\'Gumroad links coming soon! Check back or DM Ju on TikTok @master_manifestor888\')">Get This Guide</button>';
-    ph += '</div></div>';
+    ph+='<div class="result-product">';
+    ph+='<div style="flex:1"><div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:'+rm.color+';margin-bottom:4px;">'+p.cat+'</div>';
+    ph+='<div class="result-product-name">'+p.name+'</div>';
+    ph+='<div class="result-product-desc">'+p.desc+'</div></div>';
+    ph+='<div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;">';
+    ph+='<div class="result-product-price" style="color:'+rm.color+'">'+p.price+'</div>';
+    ph+='<button class="result-buy-btn" onclick="location.href=this.dataset.url" data-url="'+p.link+'">Get This Guide</button>';
+    ph+='</div></div>';
   });
-  var res = document.getElementById("quizResult");
-  res.style.display = "block";
-  res.innerHTML =
+  var res=document.getElementById("quizResult");
+  res.style.display="block";
+  res.innerHTML=
     '<div class="result-tag" style="color:'+rm.color+'">'+rm.tag+'</div>'+
     '<div class="result-title" style="color:'+rm.color+'">'+rm.title+'</div>'+
     '<div class="result-msg">'+rm.msg+'</div>'+
     '<div class="result-products">'+ph+'</div>'+
-    '<div class="result-deeper"><strong>Ready to go deeper?</strong> '+rm.deeper+'</div>'+
+    '<div class="result-deeper"><strong style="font-weight:500;">Ready to go deeper?</strong> '+rm.deeper+'</div>'+
+    '<a class="result-cta" href="'+rm.link+'" target="_blank">Get This Guide</a>'+
     '<span class="result-retake" onclick="retake()">Retake the quiz</span>';
 }
 
@@ -598,7 +744,11 @@ function retake(){
   renderQ();
 }
 
+
+
+
 renderQ();
+
 </script>
 </body>
 </html>
